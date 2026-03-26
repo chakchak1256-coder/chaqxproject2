@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ProTech — Premium PC Store Algeria</title>
+<title>Chaqx — Premium PC Store Algeria</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -969,7 +969,7 @@ body.nav-open{overflow:hidden;touch-action:none}
 <script>
 // Immediately populate product count from cache before Firebase loads
 try{
-  const _cp=localStorage.getItem('protech_products_cache');
+  const _cp=localStorage.getItem('chaqx_products_cache');
   if(_cp){
     const _prods=JSON.parse(_cp);
     const _count=_prods.filter(function(p){return p.stock===-1||p.stock>0;}).length;
@@ -1009,8 +1009,8 @@ try{
 <!-- NAVBAR -->
 <nav id="navbar">
   <div class="nav-logo" onclick="navigate('home')" style="display:flex;align-items:center;gap:10px;-webkit-text-fill-color:initial;background:none;padding:0">
-    <img src="pic/logo.jpg" alt="ProTech" style="height:36px;width:auto;object-fit:contain;display:block;border-radius:0" onerror="this.style.display='none'">
-    <span style="font-family:var(--font-display);font-size:1.8rem;font-weight:900;letter-spacing:0.1em;background:linear-gradient(135deg,var(--accent-blue),var(--accent-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent">ProTech</span>
+    <img src="pic/logo.jpg" alt="Chaqx" style="height:36px;width:auto;object-fit:contain;display:block;border-radius:0" onerror="this.style.display='none'">
+    <span style="font-family:var(--font-display);font-size:1.8rem;font-weight:900;letter-spacing:0.1em;background:linear-gradient(135deg,var(--accent-blue),var(--accent-purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent">Chaqx</span>
   </div>
   <ul class="nav-links" id="nav-links">
     <li><a href="#" onclick="navigate('home')" data-page="home">Home</a></li>
@@ -1219,7 +1219,7 @@ try{
       <div class="hero-visual" id="hero-visual" style="display:none">
         <div class="hero-pc-card" id="hero-featured-card">
           <div class="pc-card-label">🔥 BEST BUILD</div>
-          <div class="pc-card-title" id="hero-build-title">ProTech Beast Pro X</div>
+          <div class="pc-card-title" id="hero-build-title">Chaqx Beast Pro X</div>
           <div class="pc-card-price" id="hero-build-price">285,000 DA</div>
           <div class="pc-card-specs" id="hero-build-specs">
             <div class="pc-spec"><span class="pc-spec-dot"></span><span>Intel Core i9-14900K</span></div>
@@ -1248,7 +1248,7 @@ try{
         </div>
         <button class="btn-secondary" onclick="goAllProducts()" style="flex-shrink:0">VIEW ALL →</button>
       </div>
-      <p class="section-subtitle reveal" style="text-align:left;margin-bottom:40px">The freshest tech — just landed at ProTech</p>
+      <p class="section-subtitle reveal" style="text-align:left;margin-bottom:40px">The freshest tech — just landed at Chaqx</p>
       <div class="carousel-wrapper"><div class="carousel-track" id="arrivals-track"></div></div>
       <div class="carousel-nav">
         <button class="carousel-btn" onclick="carouselPrev()">←</button>
@@ -1295,7 +1295,7 @@ try{
     <div style="position:absolute;inset:0;background-image:url('pic/creative.png');background-size:cover;background-position:center 55%;opacity:0.12;pointer-events:none;z-index:0"></div>
     <div style="position:absolute;inset:0;background:linear-gradient(180deg,var(--bg-primary) 0%,rgba(5,5,8,0.55) 40%,rgba(5,5,8,0.55) 60%,var(--bg-primary) 100%);pointer-events:none;z-index:1"></div>
     <div class="container" style="position:relative;z-index:2">
-      <h2 class="section-title reveal">Why Choose ProTech?</h2>
+      <h2 class="section-title reveal">Why Choose Chaqx?</h2>
       <p class="section-subtitle reveal">The ultimate PC experience in Algeria</p>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:24px">
         <div class="value-card clickable reveal" onclick="navigate('tariffs')"><div class="value-icon">⚡</div><div class="value-title">LIGHTNING FAST DELIVERY</div><div class="value-desc">Express delivery across all covered wilayas in Algeria — see full pricing</div></div>
@@ -1399,7 +1399,7 @@ try{
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
-            <img src="pic/logo.jpg" alt="ProTech" style="height:44px;width:auto;border-radius:0">
+            <img src="pic/logo.jpg" alt="Chaqx" style="height:44px;width:auto;border-radius:0">
           </div>
           <p>Algeria's premier destination for PC components, custom builds, and gaming peripherals. Performance without compromise.</p>
           <div class="footer-socials" id="footer-socials">
@@ -1448,7 +1448,7 @@ try{
       </div>
       <div class="footer-divider"></div>
       <div class="footer-bottom" style="justify-content:center">
-        <span style="color:var(--text-muted);font-size:0.8rem">Made for <strong style="color:var(--text-secondary)">PROTECH</strong> by <a href="https://www.instagram.com/chaqx___/" target="_blank" rel="noopener" style="color:var(--accent-blue);font-weight:700;text-decoration:none;transition:opacity .2s" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">Chaqx</a>.</span>
+        <span style="color:var(--text-muted);font-size:0.8rem">Made for <strong style="color:var(--text-secondary)">CHAQX</strong> by <a href="https://www.instagram.com/chaqx___/" target="_blank" rel="noopener" style="color:var(--accent-blue);font-weight:700;text-decoration:none;transition:opacity .2s" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">Chaqx</a>.</span>
       </div>
     </div>
   </footer>
@@ -1735,22 +1735,22 @@ const WILAYAS=[
 /* ===== SAMPLE / DEMO PRODUCTS ===== */
 const SAMPLE_PRODUCTS = [
   // ---- BUILT PCs ----
-  {id:'s1',name:'ProTech Beast Pro X',category:'Built PCs',price:285000,stock:3,isNewArrival:true,
+  {id:'s1',name:'Chaqx Beast Pro X',category:'Built PCs',price:285000,stock:3,isNewArrival:true,
    description:'The ultimate gaming machine. Dominates every title at 4K with ease. Fully assembled, tested, and ready to game.',
    images:['https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=600'],
    specs:{CPU:'Intel Core i9-14900K',GPU:'NVIDIA RTX 4090 24GB',RAM:'64GB DDR5 6000MHz',Storage:'2TB Samsung 990 Pro NVMe',PSU:'Corsair RM1000x 80+ Gold',Case:'Lian Li O11 Dynamic EVO',Cooling:'360mm AIO Liquid Cooler',OS:'Windows 11 Pro'},
    builderType:''},
-  {id:'s2',name:'ProTech Titan Workstation',category:'Built PCs',price:220000,stock:2,isNewArrival:false,
+  {id:'s2',name:'Chaqx Titan Workstation',category:'Built PCs',price:220000,stock:2,isNewArrival:false,
    description:'Professional workstation for 3D rendering, video editing, and AI workloads. Built for creators who demand the best.',
    images:['https://images.unsplash.com/photo-1593640408182-31c228b6748e?w=600'],
    specs:{CPU:'AMD Ryzen 9 7950X',GPU:'NVIDIA RTX 4080 Super 16GB',RAM:'128GB DDR5 5200MHz ECC',Storage:'4TB NVMe RAID + 8TB HDD',PSU:'ASUS ROG Thor 1200W',Case:'Fractal Design Define 7',Cooling:'Custom Water Cooling Loop',OS:'Windows 11 Pro'},
    builderType:''},
-  {id:'s3',name:'ProTech Striker Mid-Range',category:'Built PCs',price:128000,stock:5,isNewArrival:true,
+  {id:'s3',name:'Chaqx Striker Mid-Range',category:'Built PCs',price:128000,stock:5,isNewArrival:true,
    description:'The perfect balance of performance and value. Handles all modern games at 1440p ultra settings effortlessly.',
    images:['https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?w=600'],
    specs:{CPU:'AMD Ryzen 7 7700X',GPU:'AMD RX 7900 GRE 16GB',RAM:'32GB DDR5 5600MHz',Storage:'1TB NVMe SSD',PSU:'Corsair RM750x 80+ Gold',Case:'NZXT H7 Flow',Cooling:'240mm AIO Liquid Cooler'},
    builderType:''},
-  {id:'s4',name:'ProTech Entry Warrior',category:'Built PCs',price:72000,stock:8,isNewArrival:false,
+  {id:'s4',name:'Chaqx Entry Warrior',category:'Built PCs',price:72000,stock:8,isNewArrival:false,
    description:'Accessible power for gamers just starting out. Handles 1080p gaming with ease at high settings.',
    images:['https://images.unsplash.com/photo-1544254567-b79d2a3fdda6?w=600'],
    specs:{CPU:'Intel Core i5-14600K',GPU:'NVIDIA RTX 4060 8GB',RAM:'16GB DDR4 3600MHz',Storage:'512GB NVMe SSD',PSU:'Corsair CV650 80+',Case:'NZXT H5 Flow'},
@@ -1993,7 +1993,7 @@ const SAMPLE_PRODUCTS = [
 
 /* ===== STATE ===== */
 let allProducts = [];
-let cart = JSON.parse(localStorage.getItem('protech_cart')||'[]')
+let cart = JSON.parse(localStorage.getItem('chaqx_cart')||'[]')
   .filter(i=>i&&i.id!=null&&i.id!==undefined&&typeof i.name==='string'&&i.name&&!isNaN(i.price));
 let deliveryTariffs = {};
 let currentCategory = 'all';
@@ -2241,14 +2241,14 @@ async function fbUpd(col,id,data){
 async function loadProducts() {
   let hasCached = false;
   try {
-    const cached = localStorage.getItem('protech_products_cache');
+    const cached = localStorage.getItem('chaqx_products_cache');
     if(cached){ allProducts = JSON.parse(cached); hasCached = true; }
   } catch(e){}
 
   // Always fire Firebase fetch
   const fbFetch = fbGet('products').then(fb => {
     allProducts = fb;
-    try{ localStorage.setItem('protech_products_cache', JSON.stringify(fb)); }catch(e){}
+    try{ localStorage.setItem('chaqx_products_cache', JSON.stringify(fb)); }catch(e){}
     // Refresh only product-specific UI — do NOT call renderHome() which would
     // re-render cats using potentially stale/empty allShopCats if it fires early
     const activePage = document.querySelector('.page.active');
@@ -2618,14 +2618,14 @@ function openProduct(id){
   const p=allProducts.find(x=>x.id===id);
   if(!p)return;
   navigate('product-detail');
-  window._currentImgs=(p.images?.length)?p.images:['https://via.placeholder.com/600x400/111120/00d4ff?text=ProTech'];
+  window._currentImgs=(p.images?.length)?p.images:['https://via.placeholder.com/600x400/111120/00d4ff?text=Chaqx'];
   const imgs=window._currentImgs;
   const specs=p.specs||{};
   document.getElementById('product-detail-content').innerHTML=`
     <div class="product-detail-grid">
       <div class="product-images">
         <div class="product-main-img-wrap">
-          <img class="product-main-img" id="main-img" src="${imgs[0]}" alt="${p.name}" onerror="this.src='https://via.placeholder.com/600x400/111120/00d4ff?text=ProTech'">
+          <img class="product-main-img" id="main-img" src="${imgs[0]}" alt="${p.name}" onerror="this.src='https://via.placeholder.com/600x400/111120/00d4ff?text=Chaqx'">
           ${imgs.length>1?`
             <button class="img-arrow img-arrow-left" onclick="galleryNav(-1)">&#8249;</button>
             <button class="img-arrow img-arrow-right" onclick="galleryNav(1)">&#8250;</button>
@@ -2718,7 +2718,7 @@ function changeQty(id,delta){
   if(item.qty<=0)removeFromCart(id);
   else{saveCart();renderCart();updateCartCount();}
 }
-function saveCart(){try{localStorage.setItem('protech_cart',JSON.stringify(cart));}catch(e){console.warn('Cart could not be saved:',e);}}
+function saveCart(){try{localStorage.setItem('chaqx_cart',JSON.stringify(cart));}catch(e){console.warn('Cart could not be saved:',e);}}
 function updateCartCount(){document.getElementById('cart-count').textContent=cart.reduce((s,i)=>s+i.qty,0);}
 function renderCart(){
   const c=document.getElementById('cart-items');
@@ -3580,7 +3580,7 @@ function applyHeroData(h){
 // Apply cached text content immediately so title/price/specs appear without waiting.
 // Visibility is intentionally NOT applied from cache — admin's toggle must come from Firebase.
 try{
-  const cachedHero=localStorage.getItem('protech_hero_cache');
+  const cachedHero=localStorage.getItem('chaqx_hero_cache');
   if(cachedHero){ applyHeroContent(JSON.parse(cachedHero)); }
 }catch(e){}
 
@@ -3622,10 +3622,10 @@ async function loadAllSettings(){
     const heroDoc = settings.find(d=>d.id==='hero');
     if(!heroDoc){
       document.getElementById('hero-visual').style.display='';
-      try{ localStorage.setItem('protech_hero_cache', JSON.stringify({heroEnabled:true})); }catch(e){}
+      try{ localStorage.setItem('chaqx_hero_cache', JSON.stringify({heroEnabled:true})); }catch(e){}
     } else {
       applyHeroData(heroDoc);
-      try{ localStorage.setItem('protech_hero_cache', JSON.stringify(heroDoc)); }catch(e){}
+      try{ localStorage.setItem('chaqx_hero_cache', JSON.stringify(heroDoc)); }catch(e){}
     }
 
     // ── Contact ───────────────────────────────────────────
@@ -3636,7 +3636,7 @@ async function loadAllSettings(){
     const displaySettings = displayDoc ? (()=>{ const o=Object.assign({},displayDoc); delete o.id; return o; })() : {};
     allShopCats = _buildShopCatsFromDisplay(allTopCats, displaySettings);
     // Always update cache — clears stale data if all cats are now disabled
-    try{ localStorage.setItem('protech_shopcats_cache', JSON.stringify(allShopCats)); }catch(e){}
+    try{ localStorage.setItem('chaqx_shopcats_cache', JSON.stringify(allShopCats)); }catch(e){}
 
   }catch(e){
     console.warn('Settings not loaded:',e);
